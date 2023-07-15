@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  * Description - 'prints number of base 10 using putchar'
- * Retun: Always 0
+ * Return: Always 0 (success)
  */
 int main(void)
 {
