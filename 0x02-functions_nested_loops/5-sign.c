@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_sign - Determines if the input number is greater, equal or less than 0.
- * 
- * @n: number to be checked for.
+ * print_sign - Determines if the input number
+ * is greater, equal or less than 0.
+ *  * @n: number to be checked for.
  *
  * Return: 1 if greater than zero, 0 if zero and -1 if less than zero.
  */
