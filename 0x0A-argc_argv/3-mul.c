@@ -26,7 +26,7 @@ int _atoi(char *s)
 		if (s[i] == '-')
 			++d;
 
-		if (s[i] >= '0' && s[i] - '0')
+		if (s[i] >= '0' && s[i] <= '9')
 		{
 			digit = s[i] - '0';
 			if (d % 2)
@@ -65,7 +65,7 @@ int main(int argc, char *argv[])
 
 	num1 = _atoi(argv[1]);
 	num2 = _atoi(argv[2]);
-	result = num1 = num2;
+	result = num1 * num2;
 
 	printf("%d\n", result);
 
